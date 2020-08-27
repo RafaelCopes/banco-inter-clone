@@ -18,16 +18,25 @@ const variants = {
 }
 
 export const Container = styled.button<ButtonProps>`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  ${({theme, variant}) => css`
 
-  padding: 0.8rem 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  color: ${({theme}) => theme.colors.secondary};
+    padding: 0.8rem 2.4rem;
 
-  background: ${({theme}) => theme.colors.background};
-  border: 0;
+    color: ${theme.colors.secondary};
 
-  ${({ variant }) => variant && variants[variant]};
+    background: ${theme.colors.background};
+    border: 0;
+
+    transition: ${theme.transition.default};
+
+    * {
+      transition: ${theme.transition.default};
+    }
+
+    ${variant && variants[variant]};
+  `}
 `;
