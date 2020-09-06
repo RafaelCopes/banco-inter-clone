@@ -10,10 +10,10 @@ const Button: React.FC<ButtonProps> = ({
   ...rest
 }) => {
   return (
-    <Container type={type} variant={variant} {...rest} >
+    <Container type={type} variant={variant} {...rest}>
       {children}
     </Container>
   );
-}
+};
 
 export default Button;

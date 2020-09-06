@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
 
-import {Container as Button} from '../../../../components/Button/styles';
+import { Container as Button } from '../../../../components/Button/styles';
 
 export const Container = styled.div`
-  ${({theme}) => css`
+  ${({ theme }) => css`
     background: ${theme.colors.lightGrey};
     width: 100%;
     height: 7.2rem;
@@ -29,7 +29,7 @@ export const Container = styled.div`
 `;
 
 export const Balance = styled.div`
-  ${({theme}) => css`
+  ${({ theme }) => css`
     > span {
       display: block;
       font-size: ${theme.fontSizes.small};
@@ -48,4 +48,3 @@ export const Balance = styled.div`
     }
   `}
 `;
-

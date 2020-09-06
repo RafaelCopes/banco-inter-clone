@@ -13,7 +13,7 @@ import Gradient from './Gradient';
 const Header: React.FC = () => {
   const user: User = {
     name: 'Rafael Copes',
-  }
+  };
 
   return (
     <>
@@ -24,9 +24,7 @@ const Header: React.FC = () => {
             Internet Banking
           </LeftNav>
           <RightNav>
-            <Button variant='secondary'>
-              Simulador de renda fixa
-            </Button>
+            <Button variant="secondary">Simulador de renda fixa</Button>
             <AccountDropdown user={user} />
           </RightNav>
         </Wrapper>
@@ -34,8 +32,6 @@ const Header: React.FC = () => {
       <Gradient />
     </>
   );
-}
+};
 
 export default memo(Header);
-
-

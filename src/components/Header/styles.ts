@@ -9,11 +9,11 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
 
-  background: ${({theme}) => theme.colors.background}
+  background: ${({ theme }) => theme.colors.background};
 `;
 
 export const Wrapper = styled.div`
-  max-width: 100rem;
+  max-width: 113rem;
   width: 100%;
 
   display: flex;
@@ -28,7 +28,7 @@ export const LeftNav = styled.div`
     margin: 0 2.4rem 1.1rem 0;
   }
 
-  font-size: ${({theme}) => theme.fontSizes.big};
+  font-size: ${({ theme }) => theme.fontSizes.big};
   font-weight: bold;
 
   display: flex;

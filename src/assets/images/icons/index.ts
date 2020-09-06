@@ -4,3 +4,4 @@ export { ReactComponent as PieChartIcon } from './pie-chart.svg';
 export { ReactComponent as ShieldIcon } from './shield.svg';
 export { ReactComponent as SmartphoneIcon } from './smartphone.svg';
 export { ReactComponent as UmbrellaIcon } from './umbrella.svg';
+export { ReactComponent as BoletoIcon } from './boleto.svg';

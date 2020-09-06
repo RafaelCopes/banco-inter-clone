@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import Button from '../../../../components/Button';
 
 export const Container = styled(Button)`
-  ${({theme}) => css`
+  ${({ theme }) => css`
     color: ${theme.colors.grey};
     font-size: ${theme.fontSizes.default};
     background: transparent;
@@ -33,7 +33,7 @@ export const Container = styled(Button)`
     }
 
     > svg {
-        margin-left: auto;
+      margin-left: auto;
     }
   `}
 `;

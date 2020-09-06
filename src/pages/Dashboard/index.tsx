@@ -4,6 +4,7 @@ import { Container, Wrapper } from './styles';
 
 import Header from '../../components/Header';
 import Sidebar from './Sidebar';
+import MainContent from './MainContent';
 
 const Dashboard: React.FC = () => {
   return (
@@ -12,10 +13,11 @@ const Dashboard: React.FC = () => {
       <Container>
         <Wrapper>
           <Sidebar />
+          <MainContent />
         </Wrapper>
       </Container>
     </>
   );
-}
+};
 
 export default Dashboard;

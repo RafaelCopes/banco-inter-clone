@@ -1,6 +1,13 @@
 import React from 'react';
 
-import {BarChartIcon, DollarSignIcon, PieChartIcon, ShieldIcon, SmartphoneIcon, UmbrellaIcon } from '../assets/images/icons';
+import {
+  BarChartIcon,
+  DollarSignIcon,
+  PieChartIcon,
+  ShieldIcon,
+  SmartphoneIcon,
+  UmbrellaIcon,
+} from '../assets/images/icons';
 
 export default {
   'Conta digital': {

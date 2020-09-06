@@ -5,7 +5,7 @@ import { transparentize } from 'polished';
 import Button from '../../../components/Button';
 
 export const Container = styled.div`
-  ${({theme}) => css`
+  ${({ theme }) => css`
     background: ${theme.colors.background};
     max-width: 26.4rem;
     max-height: 60rem;
@@ -18,8 +18,12 @@ export const Container = styled.div`
 `;
 
 export const AmountInvested = styled(Button)`
-  ${({theme}) => css`
-    background: linear-gradient(90deg, ${theme.colors.secondary} 0%, ${theme.colors.primary} 100%);
+  ${({ theme }) => css`
+    background: linear-gradient(
+      90deg,
+      ${theme.colors.secondary} 0%,
+      ${theme.colors.primary} 100%
+    );
     color: ${theme.colors.lightGrey};
     font-size: ${theme.fontSizes.small};
     width: 100%;
@@ -34,7 +38,8 @@ export const AmountInvested = styled(Button)`
 
     :hover {
       transform: scale(1.005);
-      box-shadow: 0 0.4rem 0.4rem ${transparentize(0.72, theme.colors.secondary)};
+      box-shadow: 0 0.4rem 0.4rem
+        ${transparentize(0.72, theme.colors.secondary)};
     }
   `}
 `;

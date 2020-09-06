@@ -11,6 +11,6 @@ const App: React.FC = () => (
     <Dashboard />
     <GlobalStyles />
   </ThemeProvider>
-)
+);
 
 export default App;

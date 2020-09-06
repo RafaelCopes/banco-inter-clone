@@ -19,7 +19,7 @@ export default {
     default: '1.6rem',
     vertical: '1.6rem 0',
     horizontal: '0 1.6rem',
-    big: '2.4rem'
+    big: '2.4rem',
   },
   transition: {
     default: '180ms ease-in-out',
@@ -27,5 +27,9 @@ export default {
   radius: {
     default: '0.8rem',
     small: '0.4rem',
-  }
+    tiny: '0.2rem',
+  },
+  shadows: {
+    default: '0 5px 2px rgba(0, 0, 0, 0.08)',
+  },
 } as const;

@@ -17,6 +17,6 @@ const Dropdown: React.FC<DropdownProps> = ({ icon, sectionName }) => {
       <FiChevronDown />
     </Container>
   );
-}
+};
 
 export default Dropdown;

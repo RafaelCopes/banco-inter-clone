@@ -3,23 +3,21 @@ import styled, { css } from 'styled-components';
 import { ButtonProps } from './Button';
 
 const variants = {
-  primary: css`
-  `,
+  primary: css``,
   secondary: css`
     height: 4rem;
 
     background: transparent;
-    border: 0.1rem solid ${({theme}) => theme.colors.secondary};
+    border: 0.1rem solid ${({ theme }) => theme.colors.secondary};
     border-radius: 0.4rem;
   `,
   transparent: css`
     background: transparent;
   `,
-}
+};
 
 export const Container = styled.button<ButtonProps>`
-  ${({theme, variant}) => css`
-
+  ${({ theme, variant }) => css`
     display: flex;
     justify-content: center;
     align-items: center;
